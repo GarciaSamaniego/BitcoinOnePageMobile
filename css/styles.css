@@ -7,3 +7,53 @@
 html {
     font-size: 62.5%;
 }
+
+header {
+    width: auto;
+    min-width: 260px;
+    height: 334px;
+    background: linear-gradient(207.8deg, #2e2a26 16.69%, #d17a24 90%);
+}
+header img {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.header-title-container h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 40px;
+    font-size: 2.4rem;
+    width: 260px;
+    margin: 0 auto;
+}
+.header-title-container p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+    width: auto;
+    margin: 0 auto;
+}
+.header-title-container .header-button {
+    position: absolute;
+	top: calc(100% - 220px);
+    left: calc(50% - 90px);
+    width: 180px;
+    height: 40px;
+    background: #FAF8F7;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #201E1C;
+    box-shadow: 0px 5px 8px rgba(78, 64, 27, 0.16);
+    border-radius: 4px;
+}
+.header-title-container .header-button span {
+    display: inline-block;
+    background-image: url("./assets/flecha-abajo.svg");
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+}
