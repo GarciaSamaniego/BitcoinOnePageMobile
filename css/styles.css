@@ -1,423 +1,440 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 header {
-    width: auto;
-    min-width: 260px;
-    height: 334px;
-    background: linear-gradient(207.8deg, #2e2a26 16.69%, #d17a24 90%);
-    font-family: 'DM Sans', sans-serif;
+  width: auto;
+  min-width: 260px;
+  height: 334px;
+  background: linear-gradient(207.8deg, #2e2a26 16.69%, #d17a24 90%);
+  font-family: "DM Sans", sans-serif;
 }
 header img {
-    display: flex;
-    margin: 0 auto;
-    padding-bottom: 40px;
-    padding-top: 50px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  padding-top: 50px;
 }
 .header-title-container h1 {
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 40px;
-    font-size: 2.4rem;
-    width: 260px;
-    margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 40px;
+  font-size: 2.4rem;
+  width: 260px;
+  margin: 0 auto;
 }
 .header-title-container p {
-    text-align: center;
-    color: #ffffff;
-    font-size: 1.4rem;
-    width: 250px;
-    margin: 0 auto;
-    line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.4rem;
+  width: 250px;
+  margin: 0 auto;
+  line-height: 20px;
 }
 .header-title-container .header-button {
-    position: absolute;
-    display: block;
-    margin-top: 27px;
-    left: calc(50% - 115px);
-    width: 230px;
-    height: 40px;
-    background-color: #FAF8F7;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #201E1C;
-    box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
-    border-radius: 4px;
-    font-weight: bold;
+  position: absolute;
+  display: block;
+  margin-top: 27px;
+  left: calc(50% - 115px);
+  width: 230px;
+  height: 40px;
+  background-color: #faf8f7;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #201e1c;
+  box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
+  border-radius: 4px;
+  font-weight: bold;
 }
 .header-title-container .header-button span {
-    display: inline-block;
-    background-image: url("./assets/flecha-abajo.svg");
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
+  display: inline-block;
+  background-image: url("./assets/flecha-abajo.svg");
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
 }
 main {
-    width: 100%;
-    height: auto;
-    background-color: #FAF8F7;
+  width: 100%;
+  height: auto;
+  background-color: #faf8f7;
 }
 .main-exchange-container {
-    width: 100%;
-    height: auto;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 .main-exchange-container .backgroundImg {
-    display: block;
-    height: 195px;
-    width: 195px;
-    margin: 0 auto;
-    background-image: url('./assets/Bitcoin.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: block;
+  height: 195px;
+  width: 195px;
+  margin: 0 auto;
+  background-image: url("./assets/Bitcoin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.main-exchange-container-title h1{
-    width: 90%;
-    min-width: 260px;
-    max-width: 425px;
-    margin: 0 auto;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.main-exchange-container-title h1 {
+  width: 90%;
+  min-width: 260px;
+  max-width: 425px;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .main-exchange-container-title p {
-    width: 85%;
-    height: auto;
-    margin: 0 auto;
-    font-size: 14px;
-    color: #757575;
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #757575;
 }
 .main-currency-table {
-    width: 70%;
-    min-width: 235px;
-    max-width: 500px;
-    height: 360px;
-    margin: 0 auto;
-    font-family: "Inter", sans-serif;
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table-title {
-    margin-bottom: 10px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2.3rem;
-    color: #F7931A;
-    margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: #f7931a;
+  margin-top: 20px;
 }
 .currency-table-container {
-    width: 90%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 250px;
-    margin: 0 auto;
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
 }
 .currency-table-container table {
-    width: 100%;
-    height: 100%;
-    background-color: #fefefe;
-    box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
 }
 .currency-table-container td {
-    width: 50%;
-    font-size: 1.6rem;
-    font-weight: 500px;
-    line-height: 1.9rem;
-    color: #757575;
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500px;
+  line-height: 1.9rem;
+  color: #757575;
 }
 .currency-table-container .table__top-left {
-    border-radius: 15px 0 0 0;
+  border-radius: 15px 0 0 0;
 }
 .currency-table-container .table__top-right {
-    border-radius: 0 15px 0 0;
+  border-radius: 0 15px 0 0;
 }
 .currency-table-container .table__bottom-left {
-    border-radius: 0 0 0 15px;
+  border-radius: 0 0 0 15px;
 }
 .currency-table-container .table__bottom-right {
-    border-radius: 0 0 15px 0;
+  border-radius: 0 0 15px 0;
 }
 
 .currency-table-container .table-right {
-    font-size: 1.4rem;
-    font-weight: normal;
-    line-height: 1.7rem;
-    color: #757575;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
 }
 .currency-table-container .down {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    background-image: url('./assets/trending-down.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("./assets/trending-down.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .currency-table-container .up {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    background-image: url('./assets/trending-up.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("./assets/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .currency-table-date {
-    width: 190px;
-    height: 30px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 18px;
-    background-color: #FFE9D5;
-    border-radius: 8px;
-    padding-top: 10px;
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 18px;
+  background-color: #ffe9d5;
+  border-radius: 8px;
+  padding-top: 10px;
 }
 .currency-table-date p {
-    font-size: 1rem;
-    line-height: 1rem;
-    color: #282623;
-    font-weight: 300;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #282623;
+  font-weight: 300;
 }
+@media screen and (min-width: 750px) {
+  .product-cards-conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .main-product-detail {
-    position: relative;
-    width: 100%;
-    min-width: 300px;
-    height: auto;
-    padding: 20px 10px;
-    background-color: #353434;
+  position: relative;
+  width: 100%;
+  min-width: 300px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: #353434;
 }
 .product-detail__batata-logo {
-    position: absolute;
-    width: 40px;
-    height: 25px;
-    background-image: url('./assets/batatalogo.svg');
-    top: -11px;
-    left: calc(50% - 25px);
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  background-image: url("./assets/batatalogo.svg");
+  top: -11px;
+  left: calc(50% - 25px);
 }
 .product-detail-title {
-    width: 90%;
-    min-width: 300px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
+  width: 90%;
+  min-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
 }
 .product-detail-title h2 {
-    margin-bottom: 20px;
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2rem;
-    color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2rem;
+  color: #ffffff;
 }
 .product-detail-title p {
-    margin-bottom: 20px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #808080;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
 .product-detail-card {
-    width: 90%;
-    min-width: 300px;
-    max-width: 400px;
-    height: 150px;
-    margin: 15px auto;
-    padding: 15px;
-    background-color: #282623;
-    border-radius: 5px;
-    box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
+  width: 90%;
+  min-width: 300px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #282623;
+  border-radius: 5px;
+  box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
 }
 .clock {
-    background-image: url('/css/assets/clock.svg');
+  background-image: url("/css/assets/clock.svg");
 }
 .eye {
-    background-image: url('/css/assets/eye.svg');
+  background-image: url("/css/assets/eye.svg");
 }
 .dollar {
-    background-image: url('/css/assets/dollar-sign.svg');
+  background-image: url("/css/assets/dollar-sign.svg");
 }
 .check {
-    background-image: url('/css/assets/check-circle.svg');
+  background-image: url("/css/assets/check-circle.svg");
 }
 .product-detail-card .icon-card {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .product-card-title {
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #ffffff;
 }
 .product-card-body {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #808080;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
 .bitcoin-img-container {
-    width: 100%;
-    min-width: 320px;
-    height: 50vh;
-    background-image: url('/css/assets/bitcoinbaby2x.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url("/css/assets/bitcoinbaby2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .bitcoin-img-container h2 {
-    padding-top: 50px;
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: #ffffff;
-    text-align: center;
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #ffffff;
+  text-align: center;
 }
 .main-plans-container {
-    width: 100%;
-    min-width: 300;
-    padding: 65px 0;
-    text-align: center;
+  width: 100%;
+  min-width: 300;
+  padding: 65px 0;
+  text-align: center;
 }
 .plans-title {
-    width: 90%;
-    min-width: 280px;
-    height: auto;
-    margin: 0 auto;
+  width: 90%;
+  min-width: 280px;
+  height: auto;
+  margin: 0 auto;
 }
 .plans-title h2 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.4rem;
-    color: black;
-    margin-bottom: 15px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  color: black;
+  margin-bottom: 15px;
 }
 .plans-title p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #757575;
-    margin: 20px 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+  margin: 20px 0;
 }
 .plans-container-slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+@media only screen and (min-width: 750px) {
+  .plans-container-slider {
     display: flex;
+    justify-content: center;
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+  }
 }
 .plans-container-card {
-    position: relative;
-    scroll-snap-align: center;
-    width: 70%;
-    min-width: 190px;
-    max-width: 300px;
-    height: 250px;
-    margin: 50px 6px 0;
-    padding: 0 15px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 190px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px 6px 0;
+  padding: 0 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 7px 10px rgba(78, 64, 27, 0.16);
 }
 .recomended {
-    position: absolute;
-    width: 120px;
-    height: 30px;
-    left: calc(50% - 60px);
-    top: -15px;
-    font-size: 1.2rem;
-    padding: 7px;
-    background-color: #F7931A;
-    border-radius: 7px;
-    color: #ffffff;
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 7px;
+  background-color: #f7931a;
+  border-radius: 7px;
+  color: #ffffff;
 }
 .plan-card-title {
-    padding-top: 20px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: black;
+  padding-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
 }
 .plan-card-price {
-    padding: 5px 0;
-    font-size: 5.3rem;
-    font-weight: bold;
-    line-height: 5.3rem;
-    color: black;
+  padding: 5px 0;
+  font-size: 5.3rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: black;
 }
 .plan-card-price span {
-    font-size: 1.2rem;
-    font-weight: 300;
-    vertical-align: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: 20px;
 }
 .plan-card-saving {
-    font-size: 1.2rem;
-    color: #757575;
+  font-size: 1.2rem;
+  color: #757575;
 }
 .plan-card-ca {
-    width: 150px;
-    height: 40px;
-    margin-top: 20px;
-    background-color: #faf8f7;
-    border: 2px solid #F7931A;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: black;
-    margin-top: 60px;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #faf8f7;
+  border: 2px solid #f7931a;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: black;
+  margin-top: 60px;
 }
 .plan-card-ca span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('/css/assets/arrow-right.svg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    vertical-align: -5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/css/assets/arrow-right.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: -5px;
 }
 footer {
-    display: flex;
-    width: 100%;
-    height: 150px;
-    background-color: #F7931A;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: #f7931a;
 }
 footer section {
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
 }
-footer .left ul{
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    list-style: none;
+footer .left ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
 }
 footer .left li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 footer .left a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
